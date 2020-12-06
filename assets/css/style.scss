@@ -2,11 +2,13 @@
 ---
 
 $header-bg-color: #8f172b;
-$header-bg-color-secondary: #bb3131;
 $section-headings-color: #8f172b;
 $body-text-color: #232228;
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu:ital,wght@0,400;0,500;1,400&display=swap');
 .page-header {
     font-family: 'Fredoka One', sans-serif;
+    background-image:linear-gradient(120deg, #8f172b, #bb3131)
+
     }
+
